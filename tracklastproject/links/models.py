@@ -9,15 +9,15 @@ class Link(models.Model):
     url = models.URLField("URL", max_length=250, blank=True)
     description = models.TextField(blank=True)
 
+
     def __unicode__(self):
         return self.title
+
 
 class Vote(models.Model):
     voter = models.ForeignKey(User)
     link = models.ForeignKey(Link)
 
+
     def __unicode__(self):
         return "%s upvoted %s" % (self.voter.username, self.link.title)
-
-
-# Create your models here.
