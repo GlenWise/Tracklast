@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.db.models import Count
 
 class Link(models.Model):
     title = models.CharField("Headline", max_length=100)
@@ -18,4 +19,8 @@ class Vote(models.Model):
 
     def __unicode__(self):
         return "%s upvoted %s" % (self.voter.username, self.link.title)
-from django.db import models
+
+class LinkVoteCountManager(models.Manager):
+    def get_query_set(self):
+        return super(LinkVoteCountManager, self).get_query_set().annotate(
+            votes=Count('vote')).order_by('-votes')
