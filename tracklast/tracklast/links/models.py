@@ -9,6 +9,8 @@ class Link(models.Model):
     rank_score = models.FloatField(default=0.0)
     url = models.URLField("URL", max_length=250, blank=True)
     description = models.TextField(blank=True)
+    #with_votes = LinkVoteCountManager()
+    objects = models.Manager() #default manager
 
     def __unicode__(self):
         return self.title
