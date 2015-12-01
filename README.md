@@ -1,3 +1,2 @@
 # Tracklast
-Scoial Web Final Project
-AKshay
+Social Web Final Project
