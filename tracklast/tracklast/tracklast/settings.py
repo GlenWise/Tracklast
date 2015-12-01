@@ -132,6 +132,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'links',
     'tracklast',
+    'registration',
 )
 
 # A sample logging configuration. The only tangible logging

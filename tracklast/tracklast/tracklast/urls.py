@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 from links.views import LinkListView
 from django.contrib.auth.decorators import login_required as auth
-from links.views import UserProfileEditView
+from links.views import UserProfileEditView, UserProfileDetailView
 
 # Uncomment the next two lines to enable the admin:
 
@@ -25,5 +25,8 @@ urlpatterns = patterns('',
     name="logout"),
     url(r'^edit_profile/$', auth(UserProfileEditView.as_view()), 
                                             name="edit_profile"),
+    url(r'^accounts/', include('registration.backends.simple.urls')),
+    url(r'^users/(?P<slug>\w+)/$', UserProfileDetailView.as_view(), 
+            name="profile"),
 
 )
