@@ -8,6 +8,9 @@ from django.views.generic import ListView, DetailView
 from django.contrib.auth import get_user_model
 from .models import UserProfile
 
+from django.views.generic.edit import CreateView
+from .forms import LinkForm
+
 class LinkListView(ListView):
     model = Link
 
@@ -31,3 +34,16 @@ class UserProfileEditView(UpdateView):
 
     def get_success_url(self):
         return reverse("profile", kwargs={'slug': self.request.user})
+
+class LinkCreateView(CreateView):
+    model = Link
+    form_class = LinkForm
+
+    def form_valid(self, form):
+        f = form.save(commit=False)
+        f.rank_score = 0.0
+        f.submitter = self.request.user
+        f.save()
+        return super(CreateView, self).form_valid(form)
+
+        
