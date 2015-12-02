@@ -1,0 +1,7847 @@
+  File "rerank.py", line 14
+    print "\n".join("%10s %0.2f" % (l.title, l.rank_score,
+             ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "rerank.py", line 5, in <module>
+    from links.models import Link
+  File "/Users/glenwise/Documents/CMU/SocialWeb/Tracklast/tracklast/tracklast/links/models.py", line 1, in <module>
+    from django.db import models
+  File "/Library/Python/2.7/site-packages/django/db/__init__.py", line 11, in <module>
+    if settings.DATABASES and DEFAULT_DB_ALIAS not in settings.DATABASES:
+  File "/Library/Python/2.7/site-packages/django/conf/__init__.py", line 52, in __getattr__
+    self._setup(name)
+  File "/Library/Python/2.7/site-packages/django/conf/__init__.py", line 47, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Library/Python/2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+    raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+ImportError: Could not import settings 'steelrumors.settings' (Is it on sys.path?): No module named steelrumors.settings
+---
+Traceback (most recent call last):
+  File "rerank.py", line 21, in <module>
+    rank_all()
+  File "rerank.py", line 8, in rank_all
+    for link in Link.with_votes.all():
+AttributeError: type object 'Link' has no attribute 'with_votes'
+Traceback (most recent call last):
+  File "rerank.py", line 5, in <module>
+    from links.models import Link
+  File "/Users/glenwise/Documents/CMU/SocialWeb/Tracklast/tracklast/tracklast/links/models.py", line 7, in <module>
+    class Link(models.Model):
+  File "/Users/glenwise/Documents/CMU/SocialWeb/Tracklast/tracklast/tracklast/links/models.py", line 14, in Link
+    with_votes = LinkVoteCountManager()
+NameError: name 'LinkVoteCountManager' is not defined
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+    Groovy -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+Bens Link #1 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+    Groovy -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? 0.00
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+Glen is Back!! 0.00
+    Groovy 0.00
+SUPER COOL 0.00
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+   Gregg!? -0.44
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+    Groovy -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+   Gregg!? 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+    Groovy 0.00
+Bens Link #1 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
+---
+   Gregg!? 0.44
+    link 2 0.12
+    Link 1 0.11
+Bens Link #1 0.02
+    Groovy 0.00
+Glen is Back!! -0.02
+SUPER COOL -0.02
+         2 -0.44
+----
+
+
+
