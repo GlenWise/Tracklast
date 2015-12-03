@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% load comments %}
 {% block content %}
-
 {% if is_paginated %}
 <ol start="{{ page_obj.start_index }}">
 {% else %}
@@ -9,6 +8,7 @@
 {% endif %}
 
 {% for link in object_list %}
+<div style="margin-left:15%">
 <form method="post" action="{% url 'vote' %}" class="vote_form">
     <li> [{{ link.votes }}]
     {% csrf_token %}
@@ -21,17 +21,19 @@
    {% else %}
    <button>-</button>
    {% endif %}
+
     <a href="{% url 'link_detail' pk=link.pk %}">
-      <b>{{ link.title }}</b>
+      <h5><b>{{ link.title }}</b></h5>
+    </a>
+      {{ link.submitter }}
+    <br/>
 
     {% get_comment_count for link as comment_count %}
     {{ comment_count }} comment{{comment_count|pluralize }}
-    </a>
 
-    <br/>
-    {{ link.submitter }}
     </li>
     </form>
+</div>
 {% endfor %}
 </ol>
 

@@ -11,6 +11,7 @@ from links.views import VoteFormView
 from django.contrib import admin
 admin.autodiscover()
 
+
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'tracklast.views.home', name='home'),
@@ -41,5 +42,6 @@ urlpatterns = patterns('',
         name='link_delete'),
     url(r'^comments/', include('django.contrib.comments.urls')),
     url(r'^vote/$', auth(VoteFormView.as_view()), name="vote"),
+
 
 )
