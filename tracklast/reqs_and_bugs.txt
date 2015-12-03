@@ -1,0 +1,19 @@
+Different User Accounts
+-Ability to have two levels of accounts (we need to find names for these)
+
+Play Soundcloud or youtube on site
+-If the link is a soundloud/youtube link, be able to play it on the site
+
+Require a link to a specific site (i.e Soundcloud.com, youtube.com, datpiff.com)
+-People can’t post porn and stupid shit
+
+Comments
+-Make people wait 10 seconds between making a comment, or limit # of comments per post a user can make per day
+
+
+Security Bugs
+-if you edit a link, then change a number in the bowser, it lets you edit that link
+-Sometimes it behaves strange if you enter wrong info
+-Make passwords > 6 chars, usernames > 3 chars
+
+
