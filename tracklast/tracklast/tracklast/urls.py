@@ -2,7 +2,6 @@ from django.conf.urls import patterns, include, url
 from links.views import LinkListView, LinkCreateView, LinkDetailView
 from django.contrib.auth.decorators import login_required as auth
 from links.views import UserProfileEditView, UserProfileDetailView
-
 # Uncomment the next two lines to enable the admin:
 from links.views import LinkUpdateView
 from links.views import LinkDeleteView
@@ -10,7 +9,7 @@ from links.views import VoteFormView
 
 from django.contrib import admin
 admin.autodiscover()
-
+#Will this work?
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'tracklast.views.home', name='home'),
