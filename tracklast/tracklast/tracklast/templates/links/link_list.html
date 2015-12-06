@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load prepareurl %}
 {% load comments %}
 {% block content %}
 {% if is_paginated %}
@@ -9,7 +10,7 @@
 
 {% for link in object_list %}
 <div style="margin-left:15%">
-<form method="post" action="{% url 'vote' %}" class="vote_form">
+<form method="post" action="{% url 'vote' %}" class="vote_form" id="vote_form">
     <li> [{{ link.votes }}]
     {% csrf_token %}
    <input type="hidden" id="id_link" name="link" class="hidden_id" value="{{ link.pk }}" />
@@ -25,11 +26,12 @@
     <a href="{% url 'link_detail' pk=link.pk %}">
       <h5><b>{{ link.title }}</b></h5>
     </a>
-      {{ link.submitter }}
-    <br/>
+      {{ link.submitter }}  
+      {% get_comment_count for link as comment_count %}
+      {{ comment_count }} comment{{comment_count|pluralize }}
+      <br/>
 
-    {% get_comment_count for link as comment_count %}
-    {{ comment_count }} comment{{comment_count|pluralize }}
+<iframe width="75%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//{{link.url | prepareurl}}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
     </li>
     </form>
@@ -45,4 +47,35 @@
 </div>
 {% endif %}
 
+<section id="footer" class="dark">
+            <div class="topLine">
+                <div class="container">
+                  {% if user.is_authenticated %}
+                    <div class="row">
+                        <div class="footerText">
+                            <button class="btn btn-default" data-filter="*" data-toggle="tooltip" data-placement="top" title="" data-original-title="18" data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">Share</button>
+
+                            <h3 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Share Hip-Hop Tracks You're Listening To</h3>
+                            <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Hit The 'Share' Button To Get Started</h3>
+
+                        </div>
+
+                    </div>
+                  {% else %}
+                    <div class="row">
+                        <div class="footerText">
+                            <button class="btn btn-default" data-filter="*" data-toggle="tooltip" data-placement="top" title="" data-original-title="18" data-scroll-reveal="enter bottom move 10px over 1s after 0.2s"><a href="{% url 'registration_register' %}">Register</a></button>
+
+                            <h3 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Share Your Hip-Hop Expertise With The World</h3>
+                            <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Register To Start Up-Voting, Commenting And Posting</h3>
+
+                        </div>
+
+                    </div>
+                  {% endif %}
+                </div>
+            </div>
+        </section>
+
 {% endblock %}
+

@@ -69,43 +69,13 @@
 
 </body>
 <footer>
-<br/>
-<br/>
-<br/>
-<br/>
 <section id="footer" class="dark">
-            <div class="topLine">
-                <div class="container">
-                  {% if user.is_authenticated %}
-                    <div class="row">
-                        <div class="footerText">
-                            <button class="btn btn-default" data-filter="*" data-toggle="tooltip" data-placement="top" title="" data-original-title="18" data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">Share</button>
-
-                            <h3 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Share Hip-Hop Tracks You're Listening To</h3>
-                            <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Hit The 'Share' Button To Get Started</h3>
-
-                        </div>
-
-                    </div>
-                  {% else %}
-                    <div class="row">
-                        <div class="footerText">
-                            <button class="btn btn-default" data-filter="*" data-toggle="tooltip" data-placement="top" title="" data-original-title="18" data-scroll-reveal="enter bottom move 10px over 1s after 0.2s"><a href="{% url 'registration_register' %}">Register</a></button>
-
-                            <h3 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Share Your Hip-Hop Expertise With The World</h3>
-                            <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Register To Start Up-Voting, Commenting And Posting</h3>
-
-                        </div>
-
-                    </div>
-                  {% endif %}
-                </div>
-            </div>
-
+            
             <div class="bottomLine text-center">
 
                 <p class="bold">&copy; 2015 Tracklast </p> <p>All Rights Reserved.</p>
             </div>
         </section>
+
 </footer>
 </html>
