@@ -13,7 +13,7 @@ class Link(models.Model):
     submitter = models.ForeignKey(User)
     submitted_on = models.DateTimeField(auto_now_add=True)
     rank_score = models.FloatField(default=0.0)
-    url = models.URLField("URL", max_length=250, blank=True)
+    url = models.CharField("URL", max_length=250, blank=True)
     description = models.TextField(blank=True)
     with_votes = LinkVoteCountManager()
     objects = models.Manager() #default manager
