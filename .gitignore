@@ -2,3 +2,19 @@
 *.pyc
 
 *.pyc
+
+*.pyc
+
+*.db
+
+tracklast/tracklast/links/models.pyc
+
+tracklast/tracklast/links/views.pyc
+
+*.pyc
+
+tracklast/tracklast/tracklast/__pycache__/settings.cpython-34.pyc
+
+tracklast/tracklast/tracklast/settings.pyc
+
+tracklast/tracklast/tracklast/urls.pyc
