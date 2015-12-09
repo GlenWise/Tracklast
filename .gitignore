@@ -18,3 +18,5 @@ tracklast/tracklast/tracklast/__pycache__/settings.cpython-34.pyc
 tracklast/tracklast/tracklast/settings.pyc
 
 tracklast/tracklast/tracklast/urls.pyc
+
+tracklast/tracklast/database.db
