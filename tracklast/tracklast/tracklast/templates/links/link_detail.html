@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% load comments %}
-
 {% block content %}
 <style>
   #id_honeypot {
     display: none;
   }
 </style>
+<center>
 
 <h2><a href="{{ object.url }}">{{ object.title }}</a></h2>
 {% if object.submitter == user %}
@@ -47,7 +47,7 @@
 
 
   {% render_comment_list for object %}
+
+</center>
 </div>
-
-
 {% endblock %}

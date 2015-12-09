@@ -26,12 +26,14 @@
     <a href="{% url 'link_detail' pk=link.pk %}">
       <h5><b>{{ link.title }}</b></h5>
     </a>
-      {{ link.submitter }}  
+      <font color ="#0080FF">{{ link.submitter }}</font><font color ="grey"> {{link.submitter.userprofile.bio|preptagline}}</font>
       {% get_comment_count for link as comment_count %}
       {{ comment_count }} comment{{comment_count|pluralize }}
       <br/>
 
-<iframe width="75%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//{{link.url | prepareurl}}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    {% if link.url|issoundcloud %}
+      <iframe width="75%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//{{link.url | prepareurl}}&amp;color=0080FF&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    {% endif %}
 
     </li>
     </form>
@@ -46,7 +48,7 @@
     {% endif %}
 </div>
 {% endif %}
-
+<br/>
 <section id="footer" class="dark">
             <div class="topLine">
                 <div class="container">
