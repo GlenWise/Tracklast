@@ -13,3 +13,17 @@ def prepareURL(url):
 	if url.startswith('http://www.'):
 		url = url[11:]
 	return url
+
+@register.filter(name='issoundcloud')
+def issoundcloud(url):
+	if "soundcloud" in url:
+		return True
+	else:
+		return False
+
+@register.filter(name='preptagline')
+def preptagline(tag):
+	if tag == "" or tag == None:
+		return ""
+	else:
+		return "("+(tag)+")"

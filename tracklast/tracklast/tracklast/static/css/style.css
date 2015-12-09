@@ -377,7 +377,7 @@ h1{
 h2{
     font-size:30px;
     text-transform: uppercase;
-    letter-spacing: 15px;
+    letter-spacing: 5px;
 }
 
 h3{
@@ -1356,7 +1356,6 @@ label input, textarea{
     padding:30px;
 }
 
-
 #footer .bottomLine {
     padding: 30px;
     margin: 0 auto;
@@ -1371,6 +1370,7 @@ label input, textarea{
 #footer .container{
 /*multipage only*/
     padding:0;
+
 }
 
 

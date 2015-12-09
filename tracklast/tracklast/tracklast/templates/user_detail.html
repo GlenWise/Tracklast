@@ -1,16 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>{{ object.username }}'s Profile</h2>
+<center><h2>{{ object.username }}'s Profile</h2></center>
 {% if object.userprofile.bio %}
 <div>
-<b>Bio:</b>
-{{ object.userprofile.bio }}
+
+<h3><center><font color="grey">{{ object.userprofile.bio }}</font></center></h3>
 </div>
 {% endif %}
-
+<br/>
+<br/>
 {% if object.username == user.username %}
-<p><a href='{% url "edit_profile" %}'>Edit my profile</a></p>
+<p><a href='{% url "edit_profile" %}'><center><h3>Edit my profile</h3></center></a></p>
 {% endif %}
-
+<br/>
+<br/>
 {% endblock %}
